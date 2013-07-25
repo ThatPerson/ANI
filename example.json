@@ -1,0 +1,28 @@
+{
+	"hostname": "ben-laptop",
+	"locale": "en_GB.UTF-8 UTF-8",
+	"repos": [
+		{
+			"name": "mate",
+			"server": "http://repo.mate-desktop.org/archlinux/$arch",
+			"siglevel": "Optional TrustAll"
+		}
+	],
+	"packages": [
+		"base",
+		"base-devel",
+		"networkmanager",
+		"network-manager-applet",
+		"mate",
+		"mate-extra",
+		"mate-extras"
+	],
+	"services": [
+		"NetworkManager"
+	],
+	"users": [
+		{
+			"name":"ben"
+		}
+	]
+}
