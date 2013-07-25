@@ -9,8 +9,6 @@
 		}
 	],
 	"packages": [
-		"base",
-		"base-devel",
 		"networkmanager",
 		"network-manager-applet",
 		"mate",
